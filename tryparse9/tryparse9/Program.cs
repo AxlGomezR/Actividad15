@@ -7,7 +7,14 @@ do
     Console.Clear();
     if(continuar && (nota>=0 && nota <= 100))
     {
-
+        if (nota <= 60)
+        {
+            Console.WriteLine("El estudiante reprobó");
+        }
+        else
+        {
+            Console.WriteLine("El estudiante aprobó");
+        }
     }
     else
     {
